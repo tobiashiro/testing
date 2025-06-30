@@ -1,4 +1,4 @@
-    full_pattern = r"(\d+\.\d+\.\d+\.\d+)(?:\s*-\s*(\d+\.\d+\.\d+\.\d+))?\s+port:\s*(\d+)(?:\s*-\s*(\d+))?"
+    full_pattern = r"(\d+\.\d+\.\d+\.\d+)(?:\s*-\s*(\d+\.\d+\.\d+\.\d+)?)?\s*(?:-\s*)?port:\s*(\d+)(?:\s*-\s*(\d+))?"
     
     match = re.match(full_pattern, input_str.strip())
     
